@@ -44,7 +44,7 @@ TPL_TITLE = """
 
 
 TPL_ENTS = """
-<div class="entities" style="line-height: 2.5; direction: {dir}">{content}</div>
+<div class="entities {label}" style="line-height: 2.5; direction: {dir}">{content}</div>
 """
 
 
