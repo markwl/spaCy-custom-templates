@@ -575,6 +575,7 @@ class EntityRenderer:
                     "text": entity,
                     "bg": color,
                     "kb_link": kb_link,
+                    "class-name": label.lower(),
                 }
                 ent_settings.update(additional_params)
                 markup += self.ent_template.format(**ent_settings)
