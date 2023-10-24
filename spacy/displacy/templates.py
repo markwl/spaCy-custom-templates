@@ -44,12 +44,12 @@ TPL_TITLE = """
 
 
 TPL_ENTS = """
-<div class="entities {label}" style="line-height: 2.5; direction: {dir}">{content}</div>
+<div class="entities" style="line-height: 2.5; direction: {dir}">{content}</div>
 """
 
 
 TPL_ENT = """
-<mark class="entity test-class" style="background: #f2f2f2; padding: 0.45em 0.6em; margin: 0 0.25em; line-height: 1; border-radius: 0.35em;">
+<mark class="entity {label}" style="background: #f2f2f2; padding: 0.45em 0.6em; margin: 0 0.25em; line-height: 1; border-radius: 0.35em;">
     {text}
     <span style="font-size: 0.8em; font-weight: bold; line-height: 1; border-radius: 0.35em; vertical-align: middle; margin-left: 0.5rem">{label}{kb_link}</span>
 </mark>
